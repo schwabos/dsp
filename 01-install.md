@@ -48,13 +48,13 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
-Running on a Mac, already have Python 3.5. 
+>>Running on a Mac, already have Python 3.5. 
 
 ###Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
-In the command line type "python" and the version information appears. 
+>>In the command line type "python" and the version information appears. 
 
  
 
