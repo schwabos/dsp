@@ -83,7 +83,16 @@ date_start = '15-Jan-1994'
 date_stop = '14-Jul-2015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE  (answer will be in number of days)
+>> from datetime import datetime  
+date_start = '15-Jan-1994'      
+date_stop = '14-Jul-2015'   
+date_format = '%d-%b-%Y'  
+start = datetime.strptime(date_start, date_format)  
+stop = datetime.strptime(date_stop, date_format)  
+total = stop - start  
+print(total.days) 
+`7850`
+
 
 Place code in this file: [q5_datetime.py](python/q5_datetime.py)
 
