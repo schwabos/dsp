@@ -27,6 +27,12 @@ def donuts(count):
 
 
 def both_ends(s):
+	y = len(s) - 1
+	z = len(s)
+	if len(s) < 2:
+		print('')
+	else:
+		print(s[:2]+s[-2:])	
     """
     Given a string s, return a string made of the first 2 and the last
     2 chars of the original string, so 'spring' yields 'spng'.
