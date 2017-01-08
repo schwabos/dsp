@@ -67,7 +67,15 @@ date_start = '12312013'
 date_stop = '05282015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+>> from datetime import datetime  
+date_start = '12312013'  
+date_stop = '05282015'  
+date_format = '%m%d%Y'  
+start = datetime.strptime(date_start, date_format)  
+stop = datetime.strptime(date_stop, date_format)  
+total = stop - start  
+print(total.days) 
+`513`
 
 c.  
 ```
