@@ -52,6 +52,17 @@ def both_ends(s):
 
 
 def fix_start(s):
+	l = list(s)
+	x = 1
+	first = l[0]
+	for x in range(1, len(l)):
+		if l[x] == first:
+			l[x] = '*'
+		else:
+			l[x]
+		x += 1
+	new_s = ''.join(l)
+	print(new_s)	
     """
     Given a string s, return a string where all occurences of its
     first char have been changed to '*', except do not change the
