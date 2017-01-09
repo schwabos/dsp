@@ -53,6 +53,7 @@ def front_x(words):
 
 
 def sort_last(tuples):
+	print(sorted(tuples, key=lambda last: last[-1:]))
     """
     Given a list of non-empty tuples, return a list sorted in
     increasing order by the last element in each tuple.
