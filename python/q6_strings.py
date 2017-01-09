@@ -152,7 +152,20 @@ def not_bad(s):
     raise NotImplementedError
 
 
+import math
 def front_back(a, b):
+
+	len_front_a = math.ceil(len(a)/2)
+	len_front_b = math.ceil(len(b)/2)
+	len_back_a = math.floor(len(a)/2)
+	len_back_b = math.floor(len(b)/2)
+
+	a_front = a[:len_front_a]
+	a_back = a[-len_back_a:]
+	b_front = b[:len_front_b]
+	b_back = b[-len_back_b:]
+
+	print(a_front + b_front + a_back + b_back)
     """
     Consider dividing a string into two halves. If the length is even,
     the front and back halves are the same length. If the length is
