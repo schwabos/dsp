@@ -101,6 +101,14 @@ def mix_up(a, b):
 
 
 def verbing(s):
+	if len(s) > 2:
+		if s[-3:] == 'ing':
+			verbed = s + 'ly'
+		else:
+			verbed = s + 'ing'
+	else:
+		verbed = s
+	print(verbed)	
     """
     Given a string, if its length is at least 3, add 'ing' to its end.
     Unless it already ends in 'ing', in which case add 'ly' instead.
