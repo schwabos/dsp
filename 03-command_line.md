@@ -9,7 +9,18 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+history x - seeing the last x commands i used
+pwd - the full path of the current directory i'm in 
+man [command] - info about the command 
+top - shows everything going on with the computer
+clear - scrolls the screen up to clear what's being displayed
+q or control-Z - back to command line
+cal - displays calendar of that month
+say [string] - converts the text to speech
+screencapture [file name] - takes a screenshot and assigns file name
+grep [string] [file name] - search file for all instances of the string
+head [file name] - display the first 10ish lines of the file
 
 ---
 
@@ -24,15 +35,26 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > 
+ls		lists directory contents of files and directories
+ls -a	All files
+ls -l	Long format listing
+ls -lh	Long format with readable file size
+ls -lah Long format with readable file size including entries starting with '.'
+ls -t	Newest files first (based on timestamp)
+ls -Glp Long format, suppressing group information, adding a '/' after each directory
 ---
 
 ###Q3.  More List Files in Unix  
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+ls -1	Displays each entry on a line.
+ls -m	Displays the names as a comma-separated list.
+ls -d	Displays only directories.
+ls -R	Displays subdirectories as well.
+ls -u	Displays files by the file access time.
 
 ---
 
