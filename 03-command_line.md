@@ -63,7 +63,4 @@ ls -u	Displays files by the file access time.
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
- 
-
+> > xargs repeat what you type with the command 'control -d'. You can control how many strings, x, appear on each line with 'xargs -n x'. I'm not totally sure the appropriate or suggested use of 'xargs'. I suppose it can be useful to break a long sentence or paragraph into x number of words per line to examine it, in a more orderly fashion. 
