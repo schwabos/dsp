@@ -60,7 +60,7 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I'll be using nano. I tried out the three and nano seemed the most straightforward and usable. 
 
 --
 
@@ -68,6 +68,6 @@ What terminal editor will you use? How did you make your decision?
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I've used Sublime in the past and so I will keep using it. Sublime is organized, simple, and I like the color, font coordinations that distinguish different elements. Easily customizable. I like the "control command G" that selects all the same word/phrase to edit together. "control M" jumps the cursor to the closing/opening parenthesis/bracket/braces. I would like to switch at somepoint to a graphical editor like PyCharm that has everything in one place. 
 
  
