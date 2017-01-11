@@ -43,6 +43,7 @@ ls -lh	Long format with readable file size
 ls -lah Long format with readable file size including entries starting with '.'  
 ls -t	Newest files first (based on timestamp)  
 ls -Glp Long format, suppressing group information, adding a '/' after each directory  
+
 ---
 
 ###Q3.  More List Files in Unix  
