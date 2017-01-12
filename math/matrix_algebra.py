@@ -35,6 +35,7 @@ print(C.T+3*D)
 print(B*A)
 # print(B*A.T) NOT DEFINED
 
+# Optional
 # print(B*C) NOT DEFINED
 print(C*B)
 print(B*B*B*B)
