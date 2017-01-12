@@ -29,8 +29,7 @@ How are Python lists and sets similar and different? Give examples of using both
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> 
-The _lambda operator_ is an anonymous function created at runtime. It is useful and more compact to use lambdas instead of defining functions when we are using a simple function only once. This small function can be used as an argument as seen in this example: 
+>> The _lambda operator_ is an anonymous function created at runtime. It is useful and more compact to use lambdas instead of defining functions when we are using a simple function only once. This small function can be used as an argument as seen in this example: 
 
 cities = [('NYC', 'NY', '8.6'), ('LA', 'CA', '3.9'), ('DC', 'DC', '.7'), ('SF', 'CA', '.9')]
 sorted(cities, key=lambda population: population[2])
@@ -41,7 +40,26 @@ sorted(cities, key=lambda population: population[2])
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> List Comprehension is a syntactic tool to create lists in one line as opposed to using something like like _for_ loops. It is made of brackets that contain an expression with a _for_ clause after it and an optional condition. For example to get doubles of multiples of four we can have:
+
+nums = {0,5,8,14,18,20,213}
+double_fours = [2 * x for x in nums if x % 4 == 0]
+
+Since Python allows line breaks with brackets/braces, double_fours can be rewritten to be more readable as:
+
+double_fours = [
+	2 * x 
+	for x in nums 
+	if x % 4 == 0
+]
+
+The equivalent with map and filter:
+
+map(lambda x: 2 * x, filter(lambda x: x % 4 == 0, nums))
+
+As for with dictionary comprehension, the syntax is similar:
+
+{x: 2 * x for x in nums if x % 4 == 0}
 
 ---
 
