@@ -29,7 +29,11 @@ How are Python lists and sets similar and different? Give examples of using both
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> 
+The _lambda operator_ is an anonymous function created at runtime. It is useful and more compact to use lambdas instead of defining functions when we are using a simple function only once. This small function can be used as an argument as seen in this example: 
+
+cities = [('NYC', 'NY', '8.6'), ('LA', 'CA', '3.9'), ('DC', 'DC', '.7'), ('SF', 'CA', '.9')]
+sorted(cities, key=lambda population: population[2])
 
 ---
 
