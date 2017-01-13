@@ -29,7 +29,15 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
 
 ####Q3. Search for email addresses and put them in a list.  Print the list of email addresses.
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> import pandas  
+  
+fac = pandas.read_csv('faculty.csv')  
+emails = []  
+  
+for x in range(len(fac)):  
+	emails.append(fac.email[x])  
+	  
+print(emails)  
 
 
 ####Q4. Find how many different email domains there are (Ex:  mail.med.upenn.edu, upenn.edu, email.chop.edu, etc.).  Print the list of unique email domains.
