@@ -2,6 +2,18 @@ import pandas
 
 fac = pandas.read_csv('faculty.csv')
 
+# Q1
+# This isn't complete since I was not able to break up the rows with multiple degrees
+import collections
+
+degs = []
+for x in range(len(fac)):
+	degs.append(fac.degree[x])
+	degs[x] = ''.join([c for c in degs[x] if c.isalpha()])
+	
+counter=collections.Counter(degs)
+print(counter)
+
 # Q2
 import collections
 titles = []
