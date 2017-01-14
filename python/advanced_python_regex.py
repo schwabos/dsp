@@ -18,3 +18,10 @@ emails = []
 for x in range(len(fac)):
 	emails.append(fac.email[x])
 print(emails)
+
+# Q4
+domains = []
+for x in range(len(fac)): 
+	domains.append(emails[x].split("@",1)[1])
+counter=collections.Counter(domains)
+print(counter)
