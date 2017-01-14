@@ -25,7 +25,7 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
 ####Q2. Find how many different titles there are, and their frequencies:  Ex:  Assistant Professor, Professor
 
 >> 
-Looking at the output, I assume there is a typo and 'is' should be 'of' for 'Assistant Progessor is Biostatistics'.   
+Looking at the output, I assume there is a typo and 'is' should be 'of' for 'Assistant Professor is Biostatistics'.   
 Therefore final count: {'Professor of Biostatistics': 13, 'Associate Professor of Biostatistics': 12, 'Assistant Professor of Biostatistics': 12}
 
 
