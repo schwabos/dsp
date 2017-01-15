@@ -1,12 +1,30 @@
 import pandas
+import collections
 
 fac = pandas.read_csv('faculty.csv')
 
 # Q1
+degs = dict()
+all_degs = []
+for x in range(len(fac)):
+	degs[x] = fac.degree[x]
+# print(degs)
 
+for x in range(len(fac)):
+	s = degs[x]
+	for word in s.split():
+		all_degs.append(word)
+# print(all_degs)
+
+for x in range(len(all_degs)):
+	all_degs[x] = ''.join(filter(str.isalpha, all_degs[x]))
+
+counter=collections.Counter(all_degs)
+print(len(counter)) 
+print(counter)
+# Length and counter include the empty degree. Wasn't sure if I should leave it in or not. 
 
 # Q2
-import collections
 titles = []
 for x in range(len(fac)):
  	titles.append(fac.title[x])
