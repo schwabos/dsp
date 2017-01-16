@@ -5,23 +5,23 @@ import random
 import thinkstats2  
 import numpy as np  
 import thinkplot  
-  
-  
+\  
+\  
 rand_1000 = []  
-  
+\  
 for x in range(1000):   
     rand_1000.extend([random.random()])  
 \# print(rand_1000)  
-  
+\  
 \# finding the PMF: mimicing pg. 32 -   
 pmf = thinkstats2.Pmf(rand_1000)  
-  
+\  
 thinkplot.Pmf(pmf)  
 thinkplot.Show(xlabel='rand_1000', ylabel='PMF')  
-  
-  
+\  
+\  
 \# finding the CDF: mimicing pg. 52 -   
 cdf = thinkstats2.Cdf(rand_1000)  
-  
+\  
 thinkplot.Cdf(cdf)  
 thinkplot.Show(xlabel='rand_1000', ylabel='CDF')  
