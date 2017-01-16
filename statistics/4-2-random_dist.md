@@ -17,7 +17,7 @@ for x in range(1000):
 pmf = thinkstats2.Pmf(rand_1000)  
 \  
 thinkplot.Pmf(pmf)  
-thinkplot.Show(xlabel='rand_1000', ylabel='PMF')  #this plot doesn't feel useful, since every random number is unique therefore plots 1/1000
+thinkplot.Show(xlabel='rand_1000', ylabel='PMF')  #this plot doesn't feel useful, since every random number is unique therefore plots 1/1000  
 \  
 \  
 \# finding the CDF: mimicing pg. 52 -   
