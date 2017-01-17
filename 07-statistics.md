@@ -90,7 +90,11 @@ Pr(identical|twin) = 1(1/300)/(1/125+1/300) = 29.4%
 ###Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> From http://www.stat.ufl.edu/archived/casella/Talks/BayesRefresher.pdf we get a clear picture of the difference:  
+Frequentists follow "an orthodox view, that sampling is infinite and decision rules can be sharp."   
+For Bayesians, "Unknown quantities are treated probabilistically and the state of the world can always be updated."  
+For Baysians the data is from past trails is fixed. For Frequentists the parameters are fixed.   
+
 
 ---
 
