@@ -11,7 +11,6 @@
     print(cm_high)
 
     # µ = 178 cm and σ = 7.7 cm for men
-    # using mean =179.34 from brff.py (with 332 men in the sample)
 
     low_range = scipy.stats.norm(178, 7.7).cdf(cm_low)
     high_range = scipy.stats.norm(178, 7.7).cdf(cm_high)
