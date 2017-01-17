@@ -1,6 +1,6 @@
 [Think Stats Chapter 5 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2006.html#toc50) (blue men)
 
-      import scipy
+    import scipy
     from scipy.stats import norm
 
     # height is in cm in brfss.py from pg 66, convert in to cm, male between 5’10” and 6’1” 
